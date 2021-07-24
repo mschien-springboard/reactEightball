@@ -1,0 +1,51 @@
+.MagicEightBall {
+  box-shadow: 5px 5px 10px rgb(63, 63, 63);
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.MagicEightBall-button {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.MagicEightBall-msg {
+  color: whitesmoke;
+}
+
+
+
+
+
+/* @keyframes fadeOut {
+100% { opacity: 1 }
+0% { opacity: 0 }
+} */
+
+.fade-in {
+  animation: fadeIn 5s;
+
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  };
+.fade-out {
+  opacity: 0;
+  /* animation: fadeOut 1s linear; */
+
+}

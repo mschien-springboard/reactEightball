@@ -1,0 +1,3 @@
+Time taken: 2 hours
+
+Questions: I'm curious, how you can handle using multiple useState() calls in sequence? react seems to be asyncronous when running the functions on the click event handler, so when trying to do my fancy fade animation on click, it became pretty unreliable. maybe theres some way effects like this are handled in react later on, im not sure. I want it to fade up and down on each press, which you can write in css as an animation, but because all the functions in the click handler fire at once I couldn't get it to look right. Either way I think I have an ok understanding of changing state after doing this exercise.
